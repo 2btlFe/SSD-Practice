@@ -43,6 +43,9 @@ def make_datapath_list(rootpath):
     train_img_list = list()
     train_anno_list = list()
     
+
+    pwd = os.getcwd()
+
     for line in open(train_id_names):
         file_id = line.strip()  #공백과 줄 바꿈 제거
         img_path = (imgpath_template % file_id) #화상 경로 - file_id를 %s에 넣는다

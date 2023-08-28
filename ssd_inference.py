@@ -6,10 +6,11 @@ from ssd_model_forwad import SSD
 from Dataset_DataLoader import DataTransform
 from utils.ssd_predict_show import SSDPredictShow
 
-
+import os
 
 if __name__ == "__main__":
-
+    new_directory = './ssd0/byeongcheol/SSD-Practice/'
+    os.chdir(new_directory)
     
     voc_classes = ['aeroplane', 'bicycle', 'bird', 'boat',
                 'bottle', 'bus', 'car', 'cat', 'chair',
@@ -33,13 +34,20 @@ if __name__ == "__main__":
     net = SSD(phase="inference", cfg=ssd_cfg)
 
     # SSD의 학습된 가중치 설정
-    net_weights = torch.load('./weights/ssd300_10.pth', map_location={'cuda:0': 'cpu'})
+    net_weights = torch.load('./weights/ssd300_50.pth', map_location={'cuda:0': 'cpu'})
 
     #net_weights = torch.load('./weights/ssd300_mAP_77.43_v2.pth', map_location={'cuda:0': 'cpu'})
 
+    net_weights = torch.load('./weights/ssd300_50.pth', map_location='cpu')
+    new_state_dict = {}
+    for k, v in net_weights.items():
+        if k.startswith('module.'):
+            new_state_dict[k[7:]] = v
+        else:
+            new_state_dict[k] = v
 
-    net.load_state_dict(net_weights)
-
+    net.load_state_dict(new_state_dict, strict=False)
+    
     print('네트워크 설정 완료: 학습된 가중치를 로드했습니다')
 
     # 1. 화상 읽기 
@@ -69,7 +77,7 @@ if __name__ == "__main__":
 
     print(detections.shape)
     print(detections)
-        
+
     # output : torch.Size([batch_num, 21, 200, 5])
     #  = (batch_num, 클래스, conf의 top200, 규격화된 BBox의 정보)
     #   규격화된 BBox의 정보(신뢰도, xmin, ymin, xmax, ymax)

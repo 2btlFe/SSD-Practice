@@ -1,0 +1,609 @@
+
+Use GPU: 0 for training
+opts : Namespace(batch_size=64, epochs=50, gpu=0, gpu_ids=[0, 1], local_rank=None, lr=0.001, ngpus_per_node=2, num_workers=8, port=2033, rank=0)
+-------------
+Epoch 1/50
+-------------
+ (train)
+반복 10 || Loss: 15.7160 || 10iter: 87.9396 sec.
+반복 20 || Loss: 13.0737 || 10iter: 9.2435 sec.
+반복 30 || Loss: 11.0061 || 10iter: 9.1605 sec.
+반복 40 || Loss: 9.9435 || 10iter: 8.1402 sec.
+------------
+epoch 1 || Epoch_TRAIN_Loss:595.4761 ||Epoch_VAL_Loss:0.0000
+timer:  121.5857 sec.
+-------------
+Epoch 2/50
+-------------
+ (train)
+반복 50 || Loss: 9.5155 || 10iter: 79.0932 sec.
+반복 60 || Loss: 9.3515 || 10iter: 10.6905 sec.
+반복 70 || Loss: 9.2485 || 10iter: 9.7762 sec.
+반복 80 || Loss: 8.9390 || 10iter: 8.5116 sec.
+------------
+epoch 2 || Epoch_TRAIN_Loss:414.3968 ||Epoch_VAL_Loss:0.0000
+timer:  118.0649 sec.
+-------------
+Epoch 3/50
+-------------
+ (train)
+반복 90 || Loss: 9.6255 || 10iter: 73.4149 sec.
+반복 100 || Loss: 8.2833 || 10iter: 11.6859 sec.
+반복 110 || Loss: 8.0236 || 10iter: 9.2937 sec.
+반복 120 || Loss: 8.3950 || 10iter: 9.1336 sec.
+반복 130 || Loss: 8.3771 || 10iter: 8.1902 sec.
+------------
+epoch 3 || Epoch_TRAIN_Loss:370.9267 ||Epoch_VAL_Loss:0.0000
+timer:  116.9700 sec.
+-------------
+Epoch 4/50
+-------------
+ (train)
+반복 140 || Loss: 8.0229 || 10iter: 79.3356 sec.
+반복 150 || Loss: 7.8305 || 10iter: 10.6162 sec.
+반복 160 || Loss: 7.6808 || 10iter: 9.5054 sec.
+반복 170 || Loss: 7.9059 || 10iter: 8.2569 sec.
+------------
+epoch 4 || Epoch_TRAIN_Loss:344.1544 ||Epoch_VAL_Loss:0.0000
+timer:  115.9957 sec.
+-------------
+Epoch 5/50
+-------------
+ (train)
+반복 180 || Loss: 8.5253 || 10iter: 76.8395 sec.
+반복 190 || Loss: 8.4389 || 10iter: 11.0194 sec.
+반복 200 || Loss: 8.8447 || 10iter: 9.5605 sec.
+반복 210 || Loss: 8.6770 || 10iter: 8.8189 sec.
+반복 220 || Loss: 7.5373 || 10iter: 8.2219 sec.
+------------
+epoch 5 || Epoch_TRAIN_Loss:363.3257 ||Epoch_VAL_Loss:0.0000
+timer:  118.0802 sec.
+-------------
+Epoch 6/50
+-------------
+ (train)
+반복 230 || Loss: 7.5335 || 10iter: 83.6721 sec.
+반복 240 || Loss: 7.5783 || 10iter: 9.7017 sec.
+반복 250 || Loss: 7.8668 || 10iter: 9.2709 sec.
+반복 260 || Loss: 7.4652 || 10iter: 8.2147 sec.
+------------
+epoch 6 || Epoch_TRAIN_Loss:321.7883 ||Epoch_VAL_Loss:0.0000
+timer:  117.4190 sec.
+-------------
+Epoch 7/50
+-------------
+ (train)
+반복 270 || Loss: 6.9694 || 10iter: 78.4693 sec.
+반복 280 || Loss: 7.7961 || 10iter: 10.1779 sec.
+반복 290 || Loss: 7.4457 || 10iter: 9.9797 sec.
+반복 300 || Loss: 7.1834 || 10iter: 8.4912 sec.
+------------
+epoch 7 || Epoch_TRAIN_Loss:327.1840 ||Epoch_VAL_Loss:0.0000
+timer:  117.1796 sec.
+-------------
+Epoch 8/50
+-------------
+ (train)
+반복 310 || Loss: 6.7531 || 10iter: 74.0640 sec.
+반복 320 || Loss: 6.5891 || 10iter: 11.1858 sec.
+반복 330 || Loss: 6.5433 || 10iter: 9.3800 sec.
+반복 340 || Loss: 6.8349 || 10iter: 8.9216 sec.
+반복 350 || Loss: 7.1180 || 10iter: 8.2302 sec.
+------------
+epoch 8 || Epoch_TRAIN_Loss:304.0300 ||Epoch_VAL_Loss:0.0000
+timer:  117.2203 sec.
+-------------
+Epoch 9/50
+-------------
+ (train)
+반복 360 || Loss: 6.6266 || 10iter: 80.0947 sec.
+반복 370 || Loss: 6.5558 || 10iter: 10.6836 sec.
+반복 380 || Loss: 6.5100 || 10iter: 9.4903 sec.
+반복 390 || Loss: 6.2353 || 10iter: 8.2569 sec.
+------------
+epoch 9 || Epoch_TRAIN_Loss:289.1564 ||Epoch_VAL_Loss:0.0000
+timer:  116.8101 sec.
+-------------
+Epoch 10/50
+-------------
+ (train)
+반복 400 || Loss: 6.3567 || 10iter: 75.7565 sec.
+반복 410 || Loss: 6.7140 || 10iter: 10.4591 sec.
+반복 420 || Loss: 6.4118 || 10iter: 9.6875 sec.
+반복 430 || Loss: 6.3418 || 10iter: 8.8786 sec.
+반복 440 || Loss: 6.6666 || 10iter: 8.2271 sec.
+------------
+epoch 10 || Epoch_TRAIN_Loss:285.7579 ||Epoch_VAL_Loss:0.0000
+timer:  116.5053 sec.
+----------
+ (val)
+------------
+epoch 10 || Epoch_TRAIN_Loss:0.0000 ||Epoch_VAL_Loss:610.1380
+timer:  76.3220 sec.
+-------------
+Epoch 11/50
+-------------
+ (train)
+반복 450 || Loss: 6.2474 || 10iter: 83.0332 sec.
+반복 460 || Loss: 6.1299 || 10iter: 9.5850 sec.
+반복 470 || Loss: 6.3558 || 10iter: 9.2694 sec.
+반복 480 || Loss: 6.9873 || 10iter: 8.2447 sec.
+------------
+epoch 11 || Epoch_TRAIN_Loss:288.5965 ||Epoch_VAL_Loss:0.0000
+timer:  117.3308 sec.
+-------------
+Epoch 12/50
+-------------
+ (train)
+반복 490 || Loss: 6.8379 || 10iter: 79.2714 sec.
+반복 500 || Loss: 6.1537 || 10iter: 10.3775 sec.
+반복 510 || Loss: 6.1311 || 10iter: 9.6704 sec.
+반복 520 || Loss: 6.0295 || 10iter: 8.5021 sec.
+------------
+epoch 12 || Epoch_TRAIN_Loss:278.9792 ||Epoch_VAL_Loss:0.0000
+timer:  117.9457 sec.
+-------------
+Epoch 13/50
+-------------
+ (train)
+반복 530 || Loss: 6.1116 || 10iter: 73.8523 sec.
+반복 540 || Loss: 6.0580 || 10iter: 11.2949 sec.
+반복 550 || Loss: 6.2064 || 10iter: 9.4451 sec.
+반복 560 || Loss: 5.6795 || 10iter: 9.0472 sec.
+반복 570 || Loss: 5.8710 || 10iter: 8.2223 sec.
+------------
+epoch 13 || Epoch_TRAIN_Loss:267.6561 ||Epoch_VAL_Loss:0.0000
+timer:  117.1825 sec.
+-------------
+Epoch 14/50
+-------------
+ (train)
+반복 580 || Loss: 5.9334 || 10iter: 79.2002 sec.
+반복 590 || Loss: 6.1130 || 10iter: 10.7220 sec.
+반복 600 || Loss: 5.9157 || 10iter: 9.3805 sec.
+반복 610 || Loss: 6.2560 || 10iter: 8.3047 sec.
+------------
+epoch 14 || Epoch_TRAIN_Loss:267.9972 ||Epoch_VAL_Loss:0.0000
+timer:  116.0132 sec.
+-------------
+Epoch 15/50
+-------------
+ (train)
+반복 620 || Loss: 6.2344 || 10iter: 77.1848 sec.
+반복 630 || Loss: 5.5899 || 10iter: 10.4105 sec.
+반복 640 || Loss: 5.9100 || 10iter: 9.3495 sec.
+반복 650 || Loss: 5.9941 || 10iter: 8.7091 sec.
+반복 660 || Loss: 5.9776 || 10iter: 8.2300 sec.
+------------
+epoch 15 || Epoch_TRAIN_Loss:261.5505 ||Epoch_VAL_Loss:0.0000
+timer:  117.3987 sec.
+-------------
+Epoch 16/50
+-------------
+ (train)
+반복 670 || Loss: 5.7629 || 10iter: 83.0242 sec.
+반복 680 || Loss: 5.5847 || 10iter: 9.7961 sec.
+반복 690 || Loss: 5.9649 || 10iter: 9.2410 sec.
+반복 700 || Loss: 5.8024 || 10iter: 8.2167 sec.
+------------
+epoch 16 || Epoch_TRAIN_Loss:256.7824 ||Epoch_VAL_Loss:0.0000
+timer:  117.3708 sec.
+-------------
+Epoch 17/50
+-------------
+ (train)
+반복 710 || Loss: 5.9574 || 10iter: 77.0864 sec.
+반복 720 || Loss: 5.8723 || 10iter: 10.6209 sec.
+반복 730 || Loss: 5.8512 || 10iter: 9.8696 sec.
+반복 740 || Loss: 6.1536 || 10iter: 8.5713 sec.
+------------
+epoch 17 || Epoch_TRAIN_Loss:253.1493 ||Epoch_VAL_Loss:0.0000
+timer:  116.2086 sec.
+-------------
+Epoch 18/50
+-------------
+ (train)
+반복 750 || Loss: 5.7853 || 10iter: 74.0364 sec.
+반복 760 || Loss: 5.7593 || 10iter: 11.1812 sec.
+반복 770 || Loss: 5.7307 || 10iter: 9.4092 sec.
+반복 780 || Loss: 5.8434 || 10iter: 9.1032 sec.
+반복 790 || Loss: 5.5970 || 10iter: 8.2174 sec.
+------------
+epoch 18 || Epoch_TRAIN_Loss:248.2974 ||Epoch_VAL_Loss:0.0000
+timer:  117.2650 sec.
+-------------
+Epoch 19/50
+-------------
+ (train)
+반복 800 || Loss: 5.2141 || 10iter: 80.7521 sec.
+반복 810 || Loss: 5.1625 || 10iter: 10.7532 sec.
+반복 820 || Loss: 5.4212 || 10iter: 9.3596 sec.
+반복 830 || Loss: 5.1223 || 10iter: 8.2696 sec.
+------------
+epoch 19 || Epoch_TRAIN_Loss:246.7987 ||Epoch_VAL_Loss:0.0000
+timer:  117.5063 sec.
+-------------
+Epoch 20/50
+-------------
+ (train)
+반복 840 || Loss: 5.7673 || 10iter: 75.3771 sec.
+반복 850 || Loss: 5.4233 || 10iter: 11.2143 sec.
+반복 860 || Loss: 5.4422 || 10iter: 9.6453 sec.
+반복 870 || Loss: 5.6539 || 10iter: 8.7759 sec.
+반복 880 || Loss: 5.5123 || 10iter: 8.2286 sec.
+------------
+epoch 20 || Epoch_TRAIN_Loss:245.2391 ||Epoch_VAL_Loss:0.0000
+timer:  116.7433 sec.
+----------
+ (val)
+------------
+epoch 20 || Epoch_TRAIN_Loss:0.0000 ||Epoch_VAL_Loss:502.0548
+timer:  74.1781 sec.
+-------------
+Epoch 21/50
+-------------
+ (train)
+반복 890 || Loss: 5.3968 || 10iter: 82.2196 sec.
+반복 900 || Loss: 5.3457 || 10iter: 9.8559 sec.
+반복 910 || Loss: 5.6681 || 10iter: 9.0947 sec.
+반복 920 || Loss: 5.5411 || 10iter: 8.2545 sec.
+------------
+epoch 21 || Epoch_TRAIN_Loss:241.1301 ||Epoch_VAL_Loss:0.0000
+timer:  116.4666 sec.
+-------------
+Epoch 22/50
+-------------
+ (train)
+반복 930 || Loss: 5.2818 || 10iter: 78.6161 sec.
+반복 940 || Loss: 5.5940 || 10iter: 9.9019 sec.
+반복 950 || Loss: 5.3107 || 10iter: 10.0479 sec.
+반복 960 || Loss: 5.1724 || 10iter: 8.6297 sec.
+------------
+epoch 22 || Epoch_TRAIN_Loss:236.1689 ||Epoch_VAL_Loss:0.0000
+timer:  117.3234 sec.
+-------------
+Epoch 23/50
+-------------
+ (train)
+반복 970 || Loss: 5.4000 || 10iter: 73.6191 sec.
+반복 980 || Loss: 5.2358 || 10iter: 11.4190 sec.
+반복 990 || Loss: 5.4638 || 10iter: 9.1859 sec.
+반복 1000 || Loss: 5.1060 || 10iter: 9.0001 sec.
+반복 1010 || Loss: 5.1634 || 10iter: 8.2254 sec.
+------------
+epoch 23 || Epoch_TRAIN_Loss:234.2384 ||Epoch_VAL_Loss:0.0000
+timer:  117.0971 sec.
+-------------
+Epoch 24/50
+-------------
+ (train)
+반복 1020 || Loss: 5.0882 || 10iter: 80.7518 sec.
+반복 1030 || Loss: 5.2927 || 10iter: 10.2147 sec.
+반복 1040 || Loss: 5.3617 || 10iter: 9.4045 sec.
+반복 1050 || Loss: 5.5670 || 10iter: 8.3173 sec.
+------------
+epoch 24 || Epoch_TRAIN_Loss:232.6756 ||Epoch_VAL_Loss:0.0000
+timer:  117.3217 sec.
+-------------
+Epoch 25/50
+-------------
+ (train)
+반복 1060 || Loss: 5.2608 || 10iter: 76.0414 sec.
+반복 1070 || Loss: 5.1551 || 10iter: 10.5710 sec.
+반복 1080 || Loss: 5.4033 || 10iter: 9.7642 sec.
+반복 1090 || Loss: 5.2299 || 10iter: 8.7169 sec.
+반복 1100 || Loss: 5.3476 || 10iter: 8.2186 sec.
+------------
+epoch 25 || Epoch_TRAIN_Loss:227.1221 ||Epoch_VAL_Loss:0.0000
+timer:  116.8752 sec.
+-------------
+Epoch 26/50
+-------------
+ (train)
+반복 1110 || Loss: 5.1961 || 10iter: 83.9622 sec.
+반복 1120 || Loss: 5.1477 || 10iter: 9.3306 sec.
+반복 1130 || Loss: 5.1520 || 10iter: 9.1400 sec.
+반복 1140 || Loss: 5.1884 || 10iter: 8.2226 sec.
+------------
+epoch 26 || Epoch_TRAIN_Loss:230.5779 ||Epoch_VAL_Loss:0.0000
+timer:  117.2636 sec.
+-------------
+Epoch 27/50
+-------------
+ (train)
+반복 1150 || Loss: 5.3124 || 10iter: 79.2082 sec.
+반복 1160 || Loss: 5.1722 || 10iter: 10.3962 sec.
+반복 1170 || Loss: 4.9798 || 10iter: 9.6182 sec.
+반복 1180 || Loss: 5.0084 || 10iter: 8.5576 sec.
+------------
+epoch 27 || Epoch_TRAIN_Loss:226.0573 ||Epoch_VAL_Loss:0.0000
+timer:  117.8954 sec.
+-------------
+Epoch 28/50
+-------------
+ (train)
+반복 1190 || Loss: 5.3581 || 10iter: 73.2633 sec.
+반복 1200 || Loss: 4.9108 || 10iter: 11.4879 sec.
+반복 1210 || Loss: 4.9711 || 10iter: 9.5392 sec.
+반복 1220 || Loss: 5.0333 || 10iter: 9.0122 sec.
+반복 1230 || Loss: 4.9590 || 10iter: 8.2288 sec.
+------------
+epoch 28 || Epoch_TRAIN_Loss:223.4649 ||Epoch_VAL_Loss:0.0000
+timer:  116.8151 sec.
+-------------
+Epoch 29/50
+-------------
+ (train)
+반복 1240 || Loss: 4.9725 || 10iter: 79.9692 sec.
+반복 1250 || Loss: 5.2129 || 10iter: 10.3321 sec.
+반복 1260 || Loss: 5.0018 || 10iter: 9.4897 sec.
+반복 1270 || Loss: 4.8463 || 10iter: 8.3575 sec.
+------------
+epoch 29 || Epoch_TRAIN_Loss:220.3120 ||Epoch_VAL_Loss:0.0000
+timer:  116.4382 sec.
+-------------
+Epoch 30/50
+-------------
+ (train)
+반복 1280 || Loss: 5.0147 || 10iter: 76.0686 sec.
+반복 1290 || Loss: 4.8577 || 10iter: 10.6301 sec.
+반복 1300 || Loss: 4.8676 || 10iter: 9.4485 sec.
+반복 1310 || Loss: 5.0589 || 10iter: 8.7800 sec.
+반복 1320 || Loss: 4.8864 || 10iter: 8.2328 sec.
+------------
+epoch 30 || Epoch_TRAIN_Loss:220.5968 ||Epoch_VAL_Loss:0.0000
+timer:  116.7350 sec.
+----------
+ (val)
+------------
+epoch 30 || Epoch_TRAIN_Loss:0.0000 ||Epoch_VAL_Loss:455.9668
+timer:  73.9157 sec.
+-------------
+Epoch 31/50
+-------------
+ (train)
+반복 1330 || Loss: 5.3300 || 10iter: 82.5777 sec.
+반복 1340 || Loss: 5.3536 || 10iter: 9.9297 sec.
+반복 1350 || Loss: 4.7232 || 10iter: 9.2788 sec.
+반복 1360 || Loss: 5.0673 || 10iter: 8.2549 sec.
+------------
+epoch 31 || Epoch_TRAIN_Loss:219.8209 ||Epoch_VAL_Loss:0.0000
+timer:  116.7672 sec.
+-------------
+Epoch 32/50
+-------------
+ (train)
+반복 1370 || Loss: 4.9293 || 10iter: 78.8453 sec.
+반복 1380 || Loss: 4.8688 || 10iter: 10.8535 sec.
+반복 1390 || Loss: 5.2499 || 10iter: 9.6673 sec.
+반복 1400 || Loss: 4.6637 || 10iter: 8.6163 sec.
+------------
+epoch 32 || Epoch_TRAIN_Loss:214.8095 ||Epoch_VAL_Loss:0.0000
+timer:  118.1947 sec.
+-------------
+Epoch 33/50
+-------------
+ (train)
+반복 1410 || Loss: 4.7803 || 10iter: 73.1685 sec.
+반복 1420 || Loss: 4.9801 || 10iter: 11.1810 sec.
+반복 1430 || Loss: 4.9164 || 10iter: 9.3925 sec.
+반복 1440 || Loss: 5.0247 || 10iter: 8.9263 sec.
+반복 1450 || Loss: 5.1676 || 10iter: 8.2492 sec.
+------------
+epoch 33 || Epoch_TRAIN_Loss:212.9239 ||Epoch_VAL_Loss:0.0000
+timer:  116.4019 sec.
+-------------
+Epoch 34/50
+-------------
+ (train)
+반복 1460 || Loss: 5.1305 || 10iter: 80.0295 sec.
+반복 1470 || Loss: 4.7992 || 10iter: 10.6714 sec.
+반복 1480 || Loss: 4.8015 || 10iter: 9.3776 sec.
+반복 1490 || Loss: 4.6190 || 10iter: 8.3173 sec.
+------------
+epoch 34 || Epoch_TRAIN_Loss:213.3527 ||Epoch_VAL_Loss:0.0000
+timer:  116.7952 sec.
+-------------
+Epoch 35/50
+-------------
+ (train)
+반복 1500 || Loss: 4.9786 || 10iter: 76.2835 sec.
+반복 1510 || Loss: 4.8585 || 10iter: 10.6525 sec.
+반복 1520 || Loss: 4.9326 || 10iter: 9.5111 sec.
+반복 1530 || Loss: 5.3376 || 10iter: 8.7621 sec.
+반복 1540 || Loss: 4.8340 || 10iter: 8.2550 sec.
+------------
+epoch 35 || Epoch_TRAIN_Loss:212.1135 ||Epoch_VAL_Loss:0.0000
+timer:  117.3181 sec.
+-------------
+Epoch 36/50
+-------------
+ (train)
+반복 1550 || Loss: 4.7554 || 10iter: 84.4087 sec.
+반복 1560 || Loss: 4.7214 || 10iter: 9.1374 sec.
+반복 1570 || Loss: 4.6253 || 10iter: 9.3317 sec.
+반복 1580 || Loss: 4.7232 || 10iter: 8.2378 sec.
+------------
+epoch 36 || Epoch_TRAIN_Loss:209.6677 ||Epoch_VAL_Loss:0.0000
+timer:  117.7175 sec.
+-------------
+Epoch 37/50
+-------------
+ (train)
+반복 1590 || Loss: 4.8329 || 10iter: 78.5915 sec.
+반복 1600 || Loss: 4.6322 || 10iter: 10.2485 sec.
+반복 1610 || Loss: 4.9091 || 10iter: 9.6119 sec.
+반복 1620 || Loss: 4.5149 || 10iter: 8.5250 sec.
+------------
+epoch 37 || Epoch_TRAIN_Loss:207.4852 ||Epoch_VAL_Loss:0.0000
+timer:  117.0072 sec.
+-------------
+Epoch 38/50
+-------------
+ (train)
+반복 1630 || Loss: 4.6211 || 10iter: 73.5849 sec.
+반복 1640 || Loss: 4.8269 || 10iter: 10.2915 sec.
+반복 1650 || Loss: 4.5557 || 10iter: 9.4463 sec.
+반복 1660 || Loss: 4.6818 || 10iter: 9.1454 sec.
+반복 1670 || Loss: 4.6782 || 10iter: 8.2434 sec.
+------------
+epoch 38 || Epoch_TRAIN_Loss:207.0354 ||Epoch_VAL_Loss:0.0000
+timer:  117.0845 sec.
+-------------
+Epoch 39/50
+-------------
+ (train)
+반복 1680 || Loss: 4.9510 || 10iter: 79.7813 sec.
+반복 1690 || Loss: 5.1812 || 10iter: 10.9724 sec.
+반복 1700 || Loss: 4.6232 || 10iter: 9.4633 sec.
+반복 1710 || Loss: 4.4106 || 10iter: 8.2590 sec.
+------------
+epoch 39 || Epoch_TRAIN_Loss:205.4952 ||Epoch_VAL_Loss:0.0000
+timer:  116.8359 sec.
+-------------
+Epoch 40/50
+-------------
+ (train)
+반복 1720 || Loss: 4.7045 || 10iter: 77.5052 sec.
+반복 1730 || Loss: 4.5417 || 10iter: 10.1576 sec.
+반복 1740 || Loss: 4.6958 || 10iter: 9.5970 sec.
+반복 1750 || Loss: 4.5146 || 10iter: 8.7273 sec.
+반복 1760 || Loss: 4.2175 || 10iter: 8.2450 sec.
+------------
+epoch 40 || Epoch_TRAIN_Loss:201.8489 ||Epoch_VAL_Loss:0.0000
+timer:  117.8133 sec.
+----------
+ (val)
+------------
+epoch 40 || Epoch_TRAIN_Loss:0.0000 ||Epoch_VAL_Loss:426.1745
+timer:  74.6597 sec.
+-------------
+Epoch 41/50
+-------------
+ (train)
+반복 1770 || Loss: 4.6047 || 10iter: 83.6552 sec.
+반복 1780 || Loss: 4.6068 || 10iter: 9.4514 sec.
+반복 1790 || Loss: 4.6157 || 10iter: 9.2183 sec.
+반복 1800 || Loss: 4.5660 || 10iter: 8.2416 sec.
+------------
+epoch 41 || Epoch_TRAIN_Loss:203.1872 ||Epoch_VAL_Loss:0.0000
+timer:  117.4720 sec.
+-------------
+Epoch 42/50
+-------------
+ (train)
+반복 1810 || Loss: 4.9220 || 10iter: 79.0510 sec.
+반복 1820 || Loss: 4.7634 || 10iter: 10.2035 sec.
+반복 1830 || Loss: 4.5675 || 10iter: 9.8281 sec.
+반복 1840 || Loss: 4.3628 || 10iter: 8.5028 sec.
+------------
+epoch 42 || Epoch_TRAIN_Loss:200.0950 ||Epoch_VAL_Loss:0.0000
+timer:  117.6688 sec.
+-------------
+Epoch 43/50
+-------------
+ (train)
+반복 1850 || Loss: 4.2248 || 10iter: 73.2292 sec.
+반복 1860 || Loss: 4.8084 || 10iter: 11.3037 sec.
+반복 1870 || Loss: 4.5273 || 10iter: 9.6435 sec.
+반복 1880 || Loss: 4.2838 || 10iter: 9.1209 sec.
+반복 1890 || Loss: 4.3569 || 10iter: 8.2173 sec.
+------------
+epoch 43 || Epoch_TRAIN_Loss:200.4844 ||Epoch_VAL_Loss:0.0000
+timer:  116.7919 sec.
+-------------
+Epoch 44/50
+-------------
+ (train)
+반복 1900 || Loss: 4.3091 || 10iter: 79.6388 sec.
+반복 1910 || Loss: 4.5617 || 10iter: 10.7353 sec.
+반복 1920 || Loss: 4.9022 || 10iter: 9.3499 sec.
+반복 1930 || Loss: 4.6684 || 10iter: 8.3362 sec.
+------------
+epoch 44 || Epoch_TRAIN_Loss:198.7125 ||Epoch_VAL_Loss:0.0000
+timer:  116.4272 sec.
+-------------
+Epoch 45/50
+-------------
+ (train)
+반복 1940 || Loss: 4.4987 || 10iter: 76.2246 sec.
+반복 1950 || Loss: 4.4838 || 10iter: 10.6283 sec.
+반복 1960 || Loss: 4.6529 || 10iter: 9.8302 sec.
+반복 1970 || Loss: 4.6134 || 10iter: 8.8057 sec.
+반복 1980 || Loss: 4.7054 || 10iter: 8.2371 sec.
+------------
+epoch 45 || Epoch_TRAIN_Loss:197.4501 ||Epoch_VAL_Loss:0.0000
+timer:  117.2625 sec.
+-------------
+Epoch 46/50
+-------------
+ (train)
+반복 1990 || Loss: 4.1218 || 10iter: 82.0644 sec.
+반복 2000 || Loss: 4.6616 || 10iter: 9.5297 sec.
+반복 2010 || Loss: 4.4488 || 10iter: 9.3477 sec.
+반복 2020 || Loss: 4.3396 || 10iter: 8.2150 sec.
+------------
+epoch 46 || Epoch_TRAIN_Loss:196.4226 ||Epoch_VAL_Loss:0.0000
+timer:  116.2700 sec.
+-------------
+Epoch 47/50
+-------------
+ (train)
+반복 2030 || Loss: 4.5882 || 10iter: 77.4196 sec.
+반복 2040 || Loss: 4.3063 || 10iter: 10.7815 sec.
+반복 2050 || Loss: 4.4113 || 10iter: 10.0104 sec.
+반복 2060 || Loss: 4.8909 || 10iter: 8.5241 sec.
+------------
+epoch 47 || Epoch_TRAIN_Loss:193.6754 ||Epoch_VAL_Loss:0.0000
+timer:  116.9364 sec.
+-------------
+Epoch 48/50
+-------------
+ (train)
+반복 2070 || Loss: 4.2704 || 10iter: 73.5126 sec.
+반복 2080 || Loss: 4.4219 || 10iter: 10.8581 sec.
+반복 2090 || Loss: 4.1779 || 10iter: 9.4944 sec.
+반복 2100 || Loss: 3.7690 || 10iter: 8.9963 sec.
+반복 2110 || Loss: 4.2242 || 10iter: 8.2376 sec.
+------------
+epoch 48 || Epoch_TRAIN_Loss:193.3862 ||Epoch_VAL_Loss:0.0000
+timer:  117.0954 sec.
+-------------
+Epoch 49/50
+-------------
+ (train)
+반복 2120 || Loss: 4.2843 || 10iter: 80.3542 sec.
+반복 2130 || Loss: 4.2976 || 10iter: 10.5655 sec.
+반복 2140 || Loss: 4.1435 || 10iter: 9.6414 sec.
+반복 2150 || Loss: 4.5434 || 10iter: 8.3190 sec.
+------------
+epoch 49 || Epoch_TRAIN_Loss:191.6244 ||Epoch_VAL_Loss:0.0000
+timer:  117.3589 sec.
+-------------
+Epoch 50/50
+-------------
+ (train)
+반복 2160 || Loss: 4.4299 || 10iter: 76.2199 sec.
+반복 2170 || Loss: 4.2332 || 10iter: 10.5535 sec.
+반복 2180 || Loss: 4.7534 || 10iter: 9.7084 sec.
+반복 2190 || Loss: 4.5212 || 10iter: 8.7852 sec.
+반복 2200 || Loss: 4.0411 || 10iter: 8.2271 sec.
+------------
+epoch 50 || Epoch_TRAIN_Loss:190.3876 ||Epoch_VAL_Loss:0.0000
+timer:  117.0599 sec.
+----------
+ (val)
+------------
+epoch 50 || Epoch_TRAIN_Loss:0.0000 ||Epoch_VAL_Loss:402.9131
+timer:  74.5655 sec.
+-------------
+Epoch 51/50
+-------------
+ (train)
+반복 2210 || Loss: 4.3695 || 10iter: 83.8742 sec.
+반복 2220 || Loss: 4.2453 || 10iter: 9.1977 sec.
+반복 2230 || Loss: 4.0250 || 10iter: 9.2832 sec.
+반복 2240 || Loss: 4.6179 || 10iter: 8.2343 sec.
+------------
+epoch 51 || Epoch_TRAIN_Loss:190.3875 ||Epoch_VAL_Loss:0.0000
+timer:  117.1680 sec.

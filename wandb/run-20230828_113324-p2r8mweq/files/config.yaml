@@ -1,0 +1,56 @@
+wandb_version: 1
+
+epochs:
+  desc: null
+  value: 50
+batch_size:
+  desc: null
+  value: 16
+port:
+  desc: null
+  value: 2033
+local_rank:
+  desc: null
+  value: null
+lr:
+  desc: null
+  value: 0.001
+ngpus_per_node:
+  desc: null
+  value: 2
+gpu_ids:
+  desc: null
+  value:
+  - 0
+  - 1
+num_workers:
+  desc: null
+  value: 8
+_wandb:
+  desc: null
+  value:
+    python_version: 3.7.12
+    cli_version: 0.15.8
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1693222404.516482
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 13
+      - 16
+      - 17
+      - 23
+      - 37
+      4: 3.7.12
+      5: 0.15.8
+      8:
+      - 5

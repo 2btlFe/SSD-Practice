@@ -1,0 +1,26 @@
+2023-08-28 06:01:06,690 INFO    MainThread:20110 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-08-28 06:01:06,691 INFO    MainThread:20110 [wandb_setup.py:_flush():76] Configure stats pid to 20110
+2023-08-28 06:01:06,691 INFO    MainThread:20110 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-08-28 06:01:06,691 INFO    MainThread:20110 [wandb_setup.py:_flush():76] Loading settings from /workspace/ssd0/byeongcheol/SSD-Practice/wandb/settings
+2023-08-28 06:01:06,691 INFO    MainThread:20110 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-28 06:01:06,691 INFO    MainThread:20110 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-28 06:01:06,691 INFO    MainThread:20110 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'run.py', 'program': '/workspace/ssd0/byeongcheol/SSD-Practice/run.py'}
+2023-08-28 06:01:06,692 INFO    MainThread:20110 [wandb_init.py:_log_setup():507] Logging user logs to /workspace/ssd0/byeongcheol/SSD-Practice/wandb/run-20230828_060106-dtu56edi/logs/debug.log
+2023-08-28 06:01:06,692 INFO    MainThread:20110 [wandb_init.py:_log_setup():508] Logging internal logs to /workspace/ssd0/byeongcheol/SSD-Practice/wandb/run-20230828_060106-dtu56edi/logs/debug-internal.log
+2023-08-28 06:01:06,692 INFO    MainThread:20110 [wandb_init.py:init():547] calling init triggers
+2023-08-28 06:01:06,693 INFO    MainThread:20110 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {'epochs': 50, 'batch_size': 64, 'port': 2033, 'local_rank': None, 'lr': 0.001, 'ngpus_per_node': 2, 'gpu_ids': [0, 1], 'num_workers': 8}
+2023-08-28 06:01:06,693 INFO    MainThread:20110 [wandb_init.py:init():596] starting backend
+2023-08-28 06:01:06,693 INFO    MainThread:20110 [wandb_init.py:init():600] setting up manager
+2023-08-28 06:01:06,708 INFO    MainThread:20110 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-28 06:01:06,713 INFO    MainThread:20110 [wandb_init.py:init():606] backend started and connected
+2023-08-28 06:01:06,743 INFO    MainThread:20110 [wandb_init.py:init():697] updated telemetry
+2023-08-28 06:01:06,763 INFO    MainThread:20110 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-08-28 06:01:07,716 INFO    MainThread:20110 [wandb_run.py:_on_init():2180] communicating current version
+2023-08-28 06:01:07,772 INFO    MainThread:20110 [wandb_run.py:_on_init():2189] got version response 
+2023-08-28 06:01:07,772 INFO    MainThread:20110 [wandb_init.py:init():781] starting run threads in backend
+2023-08-28 06:01:11,974 INFO    MainThread:20110 [wandb_run.py:_console_start():2159] atexit reg
+2023-08-28 06:01:11,975 INFO    MainThread:20110 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-08-28 06:01:11,975 INFO    MainThread:20110 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-08-28 06:01:11,976 INFO    MainThread:20110 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-08-28 06:01:11,977 INFO    MainThread:20110 [wandb_init.py:init():822] run started, returning control to user process

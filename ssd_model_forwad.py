@@ -306,10 +306,14 @@ def nm_suppression(boxes, scores, overlap=0.45, top_k=200):
         yy2 = torch.index_select(y2, 0, idx)
 
         # 모든 BBox에 대해, 현재 BBox=index가 i로 겹치는 값까지로 설정(clamp)
-        tmp_x1 = torch.clamp(xx1, min=x1[i])
-        tmp_y1 = torch.clamp(yy1, min=y1[i])
-        tmp_x2 = torch.clamp(xx2, max=x2[i])
-        tmp_y2 = torch.clamp(yy2, max=y2[i])
+        i_chk = i 
+        x1_sh = x1.shape
+        x1_i = x1[i].item()
+
+        tmp_x1 = torch.clamp(xx1, min=x1[i].item())
+        tmp_y1 = torch.clamp(yy1, min=y1[i].item())
+        tmp_x2 = torch.clamp(xx2, max=x2[i].item())
+        tmp_y2 = torch.clamp(yy2, max=y2[i].item())
 
         # w와 h의 텐서 크기를 index를 하나 줄인 것으로 한다
         tmp_w = torch.zeros_like(tmp_x2)
